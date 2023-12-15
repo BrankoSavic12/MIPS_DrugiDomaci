@@ -1,0 +1,33 @@
+
+Drugi domaci zadatak MIPS
+
+Branko Savić 609/2020
+
+Objasnjenje:
+Broj slova u imenu i prezimenu je 11, sto znaci da imamo 11 epruveta.
+postoji 5 tipova supstanci u epruvetama 0,1,2,3,4 
+Prva epruveta:2
+Druga epruveta:0
+Treca epruveta:1
+Cetvrta epruveta:1
+Peta epruveta:2
+Sesta epruveta:3
+Sedma epruveta:1
+Osma epruveta:1
+Deveta epruveta:3
+Deseta epruveta:0
+Jedanaesta epruveta:3
+
+Dobija se sledeci niz [2,0,1,1,2,3,1,1,3,0,3]
+
+Koristio sam:
+step motor NEMA 23 57HBP80AL4-TFA (Motor 1.8°, 2.0Nm 3A)
+drajver koji ide uz ovaj motor DM542
+
+http://www.sah.rs/dm542-57hbp80al4-tfa.html  -link sa kog sam izabrao motor i drajver 
+https://components101.com/motors/nema-23-stepper-motor-datasheet-specs   -prirucnik o motoru NEMA 23
+https://www.oyostepper.com/images/upload/File/DM542.pdf  -prirucnik za drajver
+
+Temperaturni senzor: MCP9701 (MCP9701 ima izlaz od 19.5 mV po stepenu Celzijusa, a napon od 500 mV pri 0°C)
+https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP9700-Family-Data-Sheet-DS20001942.pdf
+
